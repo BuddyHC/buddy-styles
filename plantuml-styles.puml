@@ -1,0 +1,47 @@
+' ===========================
+' Buddy Healthcare theme
+' ===========================
+'hide stereotype
+'skinparam backgroundColor #F7FAFC
+skinparam shadowing false
+skinparam defaultFontName "Arial"
+skinparam defaultFontSize 13
+skinparam hyperlinkColor #2563EB
+skinparam hyperlinkUnderline false
+
+skinparam ArrowColor #1E3A5F
+skinparam ArrowThickness 1.4
+
+skinparam swimlaneBorderColor #D6E2EA
+skinparam swimlaneBorderThickness 1
+skinparam swimlaneTitleBackgroundColor #166fa3
+skinparam swimlaneTitleFontColor #FFFFFF
+skinparam swimlaneTitleFontStyle bold
+skinparam swimlaneBackgroundColor #FFFFFF
+
+skinparam activity {
+  BackgroundColor #fffff
+  BorderColor #2563EB
+  BorderThickness 1.2
+  FontColor #000000
+  RoundCorner 14
+}
+
+skinparam activity<<subprocess>> {
+  BackgroundColor #9ddbff
+  BorderColor #2563EB
+  BorderThickness 1.6
+  FontColor #fffff
+  FontStyle bold
+  RoundCorner 14
+  HyperlinkColor #fffff
+}
+
+skinparam activityDiamond {
+  BackgroundColor #FFF7ED
+  BorderColor #F97316
+  FontColor #7C2D12
+}
+
+skinparam activityStartColor #00A6B4
+skinparam activityEndColor #00A6B4
