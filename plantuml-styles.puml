@@ -1,7 +1,7 @@
 ' ===========================
 ' Buddy Healthcare theme
 ' ===========================
-!define MAINPROCESS(text, phase, url) : [[url ↩ text\nphase]]; <<mainprocess>>
+!define MAINPROCESS(text, phase, url) : [[url ↩ text\n phase]]; <<mainprocess>>
 !define SUBPROCESS(text, url) : [[url ↗ text]]; <<subprocess>>
 
 hide stereotype
