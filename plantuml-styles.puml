@@ -1,8 +1,9 @@
 ' ===========================
 ' Buddy Healthcare theme
 ' ===========================
-'hide stereotype
-'skinparam backgroundColor #F7FAFC
+!define MAINPROCESS(text, url) : [[url ↩ text]] <<mainprocess>>;
+!define SUBPROCESS(text, url) : [[url ↗ text]] <<subprocess>>;
+
 skinparam shadowing false
 skinparam defaultFontName "Arial"
 skinparam defaultFontSize 13
@@ -28,6 +29,15 @@ skinparam activity {
 }
 
 skinparam activity<<subprocess>> {
+  BackgroundColor #9ddbff
+  BorderColor #2563EB
+  BorderThickness 1.6
+  FontColor #fffff
+  FontStyle bold
+  RoundCorner 14
+}
+
+skinparam activity<<mainprocess>> {
   BackgroundColor #9ddbff
   BorderColor #2563EB
   BorderThickness 1.6
