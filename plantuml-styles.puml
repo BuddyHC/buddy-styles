@@ -28,13 +28,12 @@ skinparam activity {
 }
 
 skinparam activity<<subprocess>> {
-  BackgroundColor #9ddbff
+  BackgroundColor #cdffaf
   BorderColor #2563EB
   BorderThickness 1.6
   FontColor #fffff
   FontStyle bold
   RoundCorner 14
-  HyperlinkColor #fffff
 }
 
 skinparam activityDiamond {
