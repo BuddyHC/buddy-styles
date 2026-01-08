@@ -4,6 +4,8 @@
 !define MAINPROCESS(text, url) : [[url ↩ text]] <<mainprocess>>;
 !define SUBPROCESS(text, url) : [[url ↗ text]] <<subprocess>>;
 
+hide stereotype
+
 skinparam shadowing false
 skinparam defaultFontName "Arial"
 skinparam defaultFontSize 13
