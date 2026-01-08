@@ -1,8 +1,8 @@
 ' ===========================
 ' Buddy Healthcare theme
 ' ===========================
-!define MAINPROCESS(text, phase, url) : [[url ↩ text:\n   phase]]; <<mainprocess>>
-!define SUBPROCESS(text, url) : [[url ↗ text]]; <<subprocess>>
+!define MAINPROCESS(text, phase, url) : [[url ↩ **text**\n   phase]]; <<mainprocess>>
+!define SUBPROCESS(text, url) : [[url ↗ **text**]]; <<subprocess>>
 
 hide stereotype
 
@@ -35,7 +35,6 @@ skinparam activity<<subprocess>> {
   BorderColor #2563EB
   BorderThickness 1.6
   FontColor #fffff
-  FontStyle bold
   RoundCorner 14
 }
 
@@ -44,7 +43,6 @@ skinparam activity<<mainprocess>> {
   BorderColor #2563EB
   BorderThickness 1.6
   FontColor #fffff
-  FontStyle bold
   RoundCorner 14
 }
 
